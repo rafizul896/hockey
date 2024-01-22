@@ -26,8 +26,8 @@
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost pl-0 lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-[30px] w-[30px] text-[#131318]" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M4 6h16M4 12h8m-8 6h16" />
                             </svg>
@@ -41,7 +41,8 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <h1 class="text-2xl lg:text-4xl font-extrabold text-black">Hockey<span class="text-[#FF4240]">’</span>s</h1>
+                    <h1 class="text-2xl lg:text-4xl font-extrabold text-black">Hockey<span
+                            class="text-[#FF4240]">’</span>s</h1>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 text-base font-medium text-[#424247]">
@@ -54,12 +55,46 @@
                 </div>
                 <div class="navbar-end lg:flex lg:gap-5 cursor-pointer">
                     <div class="hidden lg:block">
-                        <i class='bx bx-search-alt-2 text-2xl text-[#424247]' ></i>
+                        <i class='bx bx-search-alt-2 text-2xl text-[#424247]'></i>
                     </div>
-                    <a class="py-2 lg:py-3 px-4 lg:px-6 bg-[#FF4240] text-lg lg:text-xl font-bold text-[#FFF] rounded-lg">Get Ticket</a>
+                    <a
+                        class="py-2 lg:py-3 px-4 lg:px-6 bg-[#FF4240] text-lg lg:text-xl font-bold text-[#FFF] rounded-lg">Get
+                        Ticket</a>
                 </div>
             </div>
         </nav>
+        <!-- Banner -->
+        <section>
+            <div class="w-full carousel">
+                <!-- slide 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./Images/1.png" class="w-full h-[200px] lg:h-full object-cover rounded-xl" />
+                    <div class="absolute left-1/2 transform -translate-x-1/2 lg:-translate-x-0 bottom-5 flex  gap-3 lg:gap-4 lg:left-8 lg:bottom-8">
+                        <a href="#slide2"
+                            class="w-8 h-8 lg:w-12 lg:h-12 flex justify-center items-center text-base lg:text-2xl bg-black text-white btn-circle">❮</a>
+                        <a href="#slide2"
+                            class="w-8 h-8 lg:w-12 lg:h-12 flex justify-center items-center text-base lg:text-2xl bg-black text-white btn-circle">❯</a>
+                    </div>
+                </div>
+                 <!-- slide 1 -->
+                 <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./Images/4.png" class="w-full h-[200px] lg:h-full object-cover rounded-xl" />
+                    <div class="absolute left-1/2 transform -translate-x-1/2 lg:-translate-x-0 bottom-5 flex  gap-3 lg:gap-4 lg:left-8 lg:bottom-8">
+                        <a href="#slide1"
+                            class="w-8 h-8 lg:w-12 lg:h-12 flex justify-center items-center text-base lg:text-2xl bg-black text-white btn-circle">❮</a>
+                        <a href="#slide1"
+                            class="w-8 h-8 lg:w-12 lg:h-12 flex justify-center items-center text-base lg:text-2xl bg-black text-white btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+            <!-- banner text -->
+            <div class="lg:absolute lg:right-52 lg:bottom-20 bg-black py-5 px-3 lg:p-8 lg:w-[502px] space-y-2 lg:space-y-4 rounded-2xl mt-[16px] lg:mt-0">
+                <h3 class="text-lg lg:text-2xl font-extrabold text-white">Meet all the heroes from the field</h3>
+                <p class="text-sm lg:text-base text-[#a1a1a3]">
+                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. 
+                </p>
+            </div>
+        </section>
     </header>
     <!-- Header End here -->
     <!-- Main Start here -->
